@@ -1,0 +1,101 @@
+/* *{
+    background-color: rgb(228, 243, 249);
+} */
+#menu {
+    display: block;
+    width: 100%;
+
+
+}
+
+#menu ul {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+}
+
+
+#content {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    list-style-type: none;
+}
+
+
+#content h1 {
+    font-family: 'Allerta';
+    font-size: 40px;
+    color: #33B5E5;
+}
+
+
+#content h2 {
+    font-family: 'Allerta';
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#content .first-paragraph{
+    font-family: 'Allerta';
+    font-size: 28px;
+}
+
+#content .sub-paragraph{
+    font-family: 'Allerta';
+    font-size: 18px;
+}
+
+#content .units {
+    overflow: auto;
+    padding: 5px;
+    list-style-type: none;
+}
+
+#content .units li {
+    padding:5px;
+}
+
+#content .units a{
+    font-family: 'Allerta';
+    font-size: 18px;
+    color: #33B5E5;
+}
+
+#content .units a:visited{
+    font-family: 'Allerta';
+    font-size: 18px;
+    color: #33B5E5;
+}
+
+.answer {
+    font-family: 'Allerta';
+    font-size: 18px;
+    color: #33B5E5;
+}
